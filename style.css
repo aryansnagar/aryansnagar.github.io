@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    background-color: black;
+    color: grey;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.container {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 20);
+}
+
+.subcontainer {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+}
+
+#tophead {
+    margin-right: 5%;
+}
+
+#noun {
+    color: white;
+}
+
+#image {
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+#paragraph1 {
+    width: 90%;
+    line-height: 30px;
+}
+
+#paragraph2 {
+    margin-left: auto;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#social {
+    text-decoration: none;
+    color: green;
+}
+
+#social:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: none;
+    }
+
+    body {
+        background-color: rgb(20, 20, 20);
+    }
+
+    .subcontainer {
+        height: 20vh;
+    }
+
+    #noun {
+        font-size: 20px;
+    }
+}
