@@ -56,9 +56,9 @@ header a:hover {
 #introduction img {
     width: 200px;
     height: 200px;
-    padding: 10px;
+    border-radius: 100px;
+    padding: 0px;
     margin: 0px;
-    border-radius: 110px;
     object-fit: cover;
     border: 1.5px solid #b666d2;
 }
