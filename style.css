@@ -1,0 +1,249 @@
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #222222;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lucida Sans Typewriter";
+    line-height: 30px;
+    background-image: radial-gradient(#222222 1px, #111111 0);
+    background-size: 20px 20px;
+    color: #bbbbbb;
+}
+
+
+header {
+    height: 100px;
+    width: 90%;
+    padding: 0px 5% 0px 5%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #171717a7;
+    backdrop-filter: blur(5px);
+}
+
+#headerleft {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin: 0px  0px 0px 10px;
+}
+
+header p {
+    margin: 0px 0px 0px 10px;
+    font-weight: 600;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+header a {
+    text-decoration: none;
+    color: #bbbbbb;
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+header a:hover {
+    color: violet;
+    transition: 0.4s;
+}
+
+#first,
+#second,
+#third,
+#fourth {
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border-top: 1px solid #444444; */
+}
+
+#first {
+    justify-content: center;
+}
+
+#fourth {
+    flex-wrap: wrap;
+}
+
+#first img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid #444444;
+    filter: brightness(90%);
+}
+
+#first p {
+    width: 400px;
+    padding: 10px;
+    margin: 0px 0px 0px 30px;
+    background-color: #222222;
+    box-shadow: 10px 10px #444444;
+    font-weight: 600;
+}
+
+#education {
+    width: 40%;
+}
+
+#education h2 {
+    margin: 0px;
+    padding: 0px;
+    color: violet;
+}
+
+#education h4 {
+    margin: 30px 0px 0px 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+
+#education p {
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+}
+
+#picture {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#picture img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#ai,
+#wd {
+    width: 40%;
+}
+
+#ai h2,
+#wd h2 {
+    color: violet;
+    margin: 0px 0px 30px 0px;
+}
+
+#fourth h2 {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: violet;
+}
+
+#turtle,
+#grace {
+    width: 40%;
+    height: 300px;
+    background-color: #222222;
+    box-shadow: 10px 10px #444444;
+    display: flex;
+}
+
+#left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+#right {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#right h4 {
+    margin: 0px;
+    padding: 0px;
+    color: violet;
+}
+
+#right p {
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    width: 80%;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+#right a {
+    color: #bbbbbb;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+footer {
+    width: 100%;
+    height: 70vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3 {
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+footer p {
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+footer a {
+    padding: 0px;
+    margin: 30px 0px 0px 0px;
+    color: violet;
+}
+
+footer a:hover {
+    color: purple;
+    transition: 0.4s;
+}
