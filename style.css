@@ -103,8 +103,21 @@ header a:hover {
     width: 400px;
     padding: 10px;
     margin: 0px 0px 0px 30px;
-    background-color: #222222;
-    box-shadow: 10px 10px #444444;
+    background-color: #181818;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#first button {
+    height: 40px;
+    width: 200px;
+    background-color: #111111;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    color: #bbbbbb;
+    margin: 20px 0px 0px 0px;
+    font-family: "Lucida Sans Typewriter";
     font-weight: 600;
 }
 
