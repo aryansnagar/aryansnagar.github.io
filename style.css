@@ -88,6 +88,7 @@ header a:hover {
 
 #fourth {
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #first img {
@@ -169,9 +170,11 @@ header a:hover {
 #grace {
     width: 40%;
     height: 300px;
-    background-color: #222222;
-    box-shadow: 10px 10px #444444;
+    background-color: #181818;
     display: flex;
+    border-radius: 10px;
+    border: 1px solid #222222;
+    margin: 0px 0px 0px 10px;
 }
 
 #left {
