@@ -19,57 +19,44 @@ body {
 
 
 header {
-    height: 100px;
-    width: 90%;
-    padding: 0px 5% 0px 5%;
-    margin: 0px;
+    width: 500px;
+    margin: 10px 10px 10px 30%;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    background-color: #171717a7;
-    backdrop-filter: blur(5px);
+    background-color: #181818;
 }
 
-#headerleft {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-header img {
-    width: 50px;
-    height: 50px;
-    margin: 0px  0px 0px 10px;
-}
-
-header p {
-    margin: 0px 0px 0px 10px;
+header button {
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    color: violet;
+    font-family: "Lucida Sans Typewriter";
     font-weight: 600;
 }
 
-header ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header button:hover {
+    background-color: #222222;
+    transition: 0.5s;
+}
+
+
+.container {
+    width: 100%;
     margin: 0px;
     padding: 0px;
-}
-
-header a {
-    text-decoration: none;
-    color: #bbbbbb;
-    margin: 0px 0px 0px 20px;
-    padding: 0px;
-}
-
-header a:hover {
-    color: violet;
-    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #first,
-#second,
 #third,
 #fourth {
     height: 100vh;
@@ -77,6 +64,7 @@ header a:hover {
     padding: 0px;
     margin: 0px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     /* border-top: 1px solid #444444; */
@@ -87,48 +75,70 @@ header a:hover {
 }
 
 #fourth {
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
 }
 
-#first img {
+#image {
     width: 200px;
     height: 200px;
+    margin: 100px 0px 0px 0px;
+    padding: 0px;
+    border: none;
     border-radius: 100px;
-    border: 3px solid #444444;
     filter: brightness(90%);
+    z-index: -1;
 }
 
-#first p {
-    width: 400px;
-    padding: 10px;
-    margin: 0px 0px 0px 30px;
+#apple {
+    width: 500px;
+    padding: 30px;
+    margin: 30px 0px 0px 0px;
     background-color: #181818;
     border: 1px solid #222222;
     border-radius: 10px;
     font-weight: 600;
 }
 
-#first button {
+.container button {
     height: 40px;
     width: 200px;
     background-color: #111111;
     border: 1px solid #333333;
     border-radius: 5px;
     color: #ff9696;
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     font-family: "Lucida Sans Typewriter";
     font-weight: 600;
+    cursor: pointer;
+}
+
+#second {
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading {
+    color: violet;
+    margin: 100px 0px 30px 0px;
+    padding: 0px;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
 
 #education {
-    width: 40%;
-}
-
-#education h2 {
+    width: 500px;
+    background-color: #181818;
+    border: 1px solid #222222;
+    border-radius: 10px;
     margin: 0px;
-    padding: 0px;
-    color: violet;
+    padding: 0px 30px 30px 30px;
 }
 
 #education h4 {
@@ -142,52 +152,39 @@ header a:hover {
     padding: 0px;
 }
 
-#picture {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-#picture img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
 
 #ai,
 #wd {
     width: 40%;
 }
 
-#ai h2,
-#wd h2 {
-    color: violet;
-    margin: 0px 0px 30px 0px;
+#paragraph {
+    width: 500px;
 }
 
-#ai a,
-#wd a {
+#paragraph a {
     color: #ffffff;
 }
+
 #fourth h2 {
     width: 100%;
     text-align: center;
     padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 30px 0px;
     color: violet;
 }
 
 #turtle,
 #grace {
-    width: 40%;
-    height: 300px;
+    width: 500px;
+    height: 200px;
+    padding: 30px;
     background-color: #181818;
     display: flex;
     border-radius: 10px;
     border: 1px solid #222222;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 0px 10px 10px;
 }
 
 #left {
