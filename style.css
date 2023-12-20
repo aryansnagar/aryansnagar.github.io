@@ -17,7 +17,6 @@ body {
     color: #bbbbbb;
 }
 
-
 header {
     width: 500px;
     margin: 10px 10px 10px 30%;
@@ -26,6 +25,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #181818;
+    border: 1px solid #222222;
 }
 
 header button {
@@ -35,7 +35,7 @@ header button {
     border: none;
     border-radius: 50px;
     background-color: transparent;
-    color: violet;
+    color: #ff9696;
     font-family: "Lucida Sans Typewriter";
     font-weight: 600;
 }
@@ -44,7 +44,6 @@ header button:hover {
     background-color: #222222;
     transition: 0.5s;
 }
-
 
 .container {
     width: 100%;
@@ -56,73 +55,51 @@ header button:hover {
     justify-content: center;
 }
 
-#first,
-#third,
-#fourth {
-    height: 100vh;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    /* border-top: 1px solid #444444; */
-}
-
-#first {
-    justify-content: center;
-}
-
-#fourth {
-    flex-direction: column;
-    justify-content: center;
-}
-
 #image {
     width: 200px;
     height: 200px;
-    margin: 100px 0px 0px 0px;
-    padding: 0px;
-    border: none;
-    border-radius: 100px;
+    margin: 70px 0px 0px 0px;
+    padding: 10px;
+    border: 2px solid #ff9696;
+    border-radius: 150px;
     filter: brightness(90%);
     z-index: -1;
 }
 
-#apple {
+#introduction {
     width: 500px;
     padding: 30px;
-    margin: 30px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
     background-color: #181818;
     border: 1px solid #222222;
     border-radius: 10px;
     font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.container button {
+#introduction p {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#introduction button {
     height: 40px;
     width: 200px;
     background-color: #111111;
     border: 1px solid #333333;
     border-radius: 5px;
     color: #ff9696;
-    margin: 10px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     font-family: "Lucida Sans Typewriter";
     font-weight: 600;
     cursor: pointer;
 }
 
-#second {
-    height: 100vh;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 
 #heading {
     color: violet;
@@ -152,13 +129,6 @@ header button:hover {
     padding: 0px;
 }
 
-
-
-#ai,
-#wd {
-    width: 40%;
-}
-
 #paragraph {
     width: 500px;
 }
@@ -167,13 +137,7 @@ header button:hover {
     color: #ffffff;
 }
 
-#fourth h2 {
-    width: 100%;
-    text-align: center;
-    padding: 0px;
-    margin: 0px 0px 30px 0px;
-    color: violet;
-}
+
 
 #turtle,
 #grace {
@@ -213,7 +177,7 @@ header button:hover {
 #right h4 {
     margin: 0px;
     padding: 0px;
-    color: violet;
+    color: #f1ffa9;
 }
 
 #right p {
@@ -257,10 +221,10 @@ footer p {
 footer a {
     padding: 0px;
     margin: 30px 0px 0px 0px;
-    color: violet;
+    color: #a9ff9d;
 }
 
 footer a:hover {
-    color: purple;
+    color: #659b58;
     transition: 0.4s;
 }
