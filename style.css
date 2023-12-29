@@ -19,7 +19,7 @@ body {
 
 header {
     width: 500px;
-    margin: 10px 10px 10px 30%;
+    margin: 10px 0px 10px 0px;
     border-radius: 50px;
     display: flex;
     align-items: center;
