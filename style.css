@@ -9,9 +9,8 @@ body {
      padding: 0px;
      font-family: 'VT323', monospace;
      min-height: 100vh;
-     color: #bbbbbb;
-     /* background-image: radial-gradient(#222222 1px, transparent 0); */
-     background-color: #010101;
+     color: #111111;
+     background-color: #f0f0f0;
      background-size: 20px 20px;
 }
 
@@ -30,8 +29,6 @@ header p {
      padding: 10px;
      font-size: 30px;
      font-weight: 600;
-     color: #f0f0f0;
-
 }
 
 .social-media {
@@ -44,7 +41,7 @@ header p {
 
 .social-media a{
      margin: 0px 0px 0px 20px;
-     color: #f0f0f0;
+     color: #111111;
 }
 
 .paragraph {
@@ -71,22 +68,21 @@ header p {
      object-fit: cover;
      margin: 50px 0px 5vw 0px;
      padding: 0px;
-     filter: brightness(30%);
 }
 
 .link {
      margin: 0px;
      padding: 0px 10px 0px 10px;
      text-decoration: none;
-     color: #222222;
-     background-color: #f0f0f0;
+     color: #f0f0f0;
+     background-color: #111111;
      font-size: 40px;
 }
 
 .link:hover {
      color: #111111;
      background-color: #bbbbbb;
-     transition: 0.3s ease-in;
+     transition: 0.3s;
 }
 
 @media only screen and (max-width: 600px) {
