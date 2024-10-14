@@ -34,7 +34,7 @@ body {
     padding: 5px;
     width: 150px;
     height: 150px;
-    border: 1.5px solid #e78ae7;
+    border: 1.5px solid #7cd867;
     border-radius: 100px;
     object-fit: cover;
     cursor: pointer;
@@ -42,7 +42,7 @@ body {
 #con-one img:hover {
     margin: 0px;
     padding: 8px;
-    border: 1.5px dashed #e79b8a;
+    border: 1.5px solid #7cd867;
     transition: 0.3s;
 }
 #con-one div {
@@ -98,14 +98,13 @@ body {
     margin: 0px 30px 0px 0px;
     padding: 3px 0px;
     text-decoration: none;
-    color: #e78ae7;
-    border-bottom: 1px solid #e78ae7;
+    color: #7cd867;
+    /* border-bottom: 1px solid #7cd867; */
     font-family: "Roboto Mono", sans-serif;
 }
 #con-two-left a:hover {
     padding: 3px 0px;
-    background-color: #f8ba95;
-    color: black;
+    color: #7cd867;
     transition: 0.3s;
     border-radius: 5px;
     border-bottom: none;
@@ -126,7 +125,7 @@ body {
     margin: 2px 0px;
     padding: 5px 20px;
     width: 100%;
-    color: #e79b8a;
+    color: #7cd867;
 }
 ion-icon {
     font-size: 16px;
@@ -177,8 +176,8 @@ ion-icon {
 #con-four div {
     margin: 10px 10px 0px 0px;
     padding: 20px;
-    width: calc(33.33% - 50px);
-    min-height: 350px;
+    width: calc(50% - 50px);
+    min-height: 230px;
     height: fit-content;
     background-color: #121212;
     border-radius: 5px;
