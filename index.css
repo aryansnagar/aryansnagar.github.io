@@ -1,0 +1,119 @@
+/* inter font dependencies */
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+/* scrollbar edit */
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d7d7d7;
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#top-con {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 900px;
+    height: fit-content;
+    margin: 0px 15%;
+    padding: 30px 0px;
+    background-color: #ffffff;
+}
+
+#top-con h1 {
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+#top-con a {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 0px 0px 20px;
+    text-decoration: none;
+    color: #222145;
+}
+
+#top-con a:hover {
+    background-color: #fffac2;
+}
+
+#top-con div input {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+
+#bot-con {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 70%;
+    max-width: 900px;
+    height: fit-content;
+    margin: 80px auto 0px;
+    padding: 30px 0px;
+}
+
+#bot-con p {
+    width: calc(100%);
+    height: fit-content;
+    line-height: 1.6rem;
+    padding: 10px 0px;
+    color: #323232;
+}
+
+#bot-con p a {
+    width: fit-content;
+    height: fit-content;
+    margin: 0px 10px 0px 0px;
+    text-decoration: none;
+    color: #222145;
+    background-color: #f0f0f0;
+}
+
+#bot-con a:hover {
+    background-color: #fffac2;
+}
+
+footer {
+    margin: 0px auto;
+    padding: 0px 0px 30px 0px;
+    width: 70%;
+    max-width: 900px;
+}
+
+footer p {
+    width: fit-content;
+    height: fit-content;
+    font-size: 0.9rem;
+    color: #9b9b9b;
+}
